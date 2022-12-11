@@ -5,12 +5,23 @@ public class Student {
 	private Long id;
 	private String name;
 	private String address;
+	private Long  mobileNo;
 
 
 	
 	
 	public String getAddress() {
 		return address;
+	}
+
+
+	public Long getMobileNo() {
+		return mobileNo;
+	}
+
+
+	public void setMobileNo(Long mobileNo) {
+		this.mobileNo = mobileNo;
 	}
 
 
