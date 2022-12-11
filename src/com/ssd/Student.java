@@ -6,10 +6,22 @@ public class Student {
 	private String name;
 	private String address;
 	private Long  mobileNo;
+	private String city;
+	
 
 
 	
 	
+	public String getCity() {
+		return city;
+	}
+
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+
 	public String getAddress() {
 		return address;
 	}
